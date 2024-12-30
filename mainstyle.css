@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('https://congchungnguyenvietcuong.com/Uploaded/Images/Original/2024/04/12/F3D8DD45-A9FA-444C-98EE-BBE0CE1B20C0_1204095806.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    z-index: -1;
+}
+/* fast go */
+
+.label-container {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.label-container a {
+    display: inline-block;
+    width: 120px;
+    margin: 20px;
+    padding: 10px 15px;
+}
+.label {
+    border-radius: 25px;
+    background-color: rgb(39, 163, 136); 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px white solid;
+    text-decoration: none;
+}
+
+.label:hover {
+    background-color: rgb(0, 200, 150);
+}
+/* */
+
+
+/* banner */
+.bannerimg {
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2477131253/display_1500/stock-photo-anime-artistic-image-of-haikyuu-2477131253.jpg");
+    margin-top: 0;
+    background-size: cover;
+    position: relative;
+    overflow:hidden;
+    height: 450px;
+    width: 100%;
+    top: -50px;
+    border-bottom: white 4px solid;
+}
+@media (max-width: 960px) {
+    .bannerimg {
+      top: 0;
+      height: 400px;
+    }
+}
+
+.banner .bannerimg h1 {
+    color: white;
+    margin: 0;
+    padding-top: 240px;
+    padding-bottom: 160px;
+    font-family: "dimitri";
+    font-size: 80px;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 1px black;;
+}
+/* */
+
+
+/* hoạt động mới */
+
+.new h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.new img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+}
+.new .newimg {
+    text-align: center;
+    line-height: 50px;
+    word-spacing: 50px;
+}
+
+/* */
+/* đăng ký */
+
+
+
+.form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+#toggle {
+    display: none;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#toggle:checked ~ .form-container {
+    display: block;
+}
+.close {
+    position: flex-end;
+    display: flex;
+    float: right;
+    text-align: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* */
+/* thành tích */
+.thanhtichbackgr {
+    border: 4px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 500px;
+    margin-inline: auto;
+    border-radius: 25px;
+}
+.thanhtich h1,h2 {
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #a4460b;
+    font-family: "bungee";
+}
+.thanhtich h2 {
+    color: #c43e3e;
+}
+.thanhtich p {
+    font-family: "sigmar one";
+}
+
+.thanhtich img {
+    margin: 20px;
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+}
+.tt1 p {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.tt1 {
+    height: 200px;
+} 
+.tt1 img {
+    float: right;
+}
+.tt2 img {
+    width: 220px;
+    height: 140px;
+}
+.tt2 p {
+    position: block;
+    padding-left: 50%;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.tt2 img{
+    position: relative;
+    top: -160px;
+}
+.tt3 img {
+
+}
+.thanhtich p {
+    color: #7b3103;
+}
+.tt3 .movebox {
+    position: absolute;
+    margin-top: -240px;
+}
+.tt3 img {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 80px;
+}
+.tt3 p {
+    display: flexbox;
+    position: absolute;
+    width: 200px;
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+/* */
+/* thông tin liên hệ */
+/* */
+/* bản quyền */
+/* */
